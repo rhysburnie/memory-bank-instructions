@@ -21,10 +21,48 @@ When you edit or create userLog it resides in the memory-bank/
 
 ## UserLog Instructions
 
-When you encounter the command /user-log please to the following:
-- Create a summary of the session state so far - but dont output to chat, it will be used as file content. The summary should only be paragraphs and no more that 150 words total.
-- if there is any text following the command that is custom log text from the user to be included Please give it a heading `## User Notes`
-- finally add the text to the userLog file, The heading should be `# Session Summary` plus the current Date and time
+  When you encounter the
+  command /user-log please to
+  the following:
+  - Create a summary of the
+  session state so far - but
+  dont output to chat, it will
+   be used as file content.
+  The summary should only be
+  paragraphs and no more that
+  150 words total.
+  - if there is any text
+  following the command that
+  is custom log text from the
+  user to be included Please
+  give it a heading `## User
+  Notes`
+  - finally add the text to
+  the userLog file, The
+  heading should be the current
+  Date and time
+
+  Additionally:
+  - Execute the requested
+  action only
+  - Do not act on User Notes,
+  Do not provide additional
+  analysis, commentary, or
+  responses
+  - Acknowledge completion
+  briefly and stop
+
+  UserLog File Format:
+  - Add new entries at the TOP
+   of the file (not the end)
+  - Use correct current
+  date/time from system
+  environment
+  - Format: `# H:MMAM/PM - DD MMM YYYY` (e.g., "2:00PM - 25 Aug 2025")
+  - Insert new content BEFORE
+  existing entries to maintain
+   chronological order (newest
+   first)
 
 Keep in mind that the memory bank files will be found in the project level context.
 The project may have further memory bank instructions in its CLAUDE.md
