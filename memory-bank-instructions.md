@@ -22,7 +22,7 @@ The project may have further memory bank instructions in its CLAUDE.md
 
 ## When asked to initialize the memory bank
 
-A projects memory bank should be housed in its `memory-bank/` root folder, create if missing.
+A project's memory bank should be housed in its `memory-bank/` root folder, create if missing.
 
 If there is a pre existing `projectbrief.md` in the root or `memory-bank/` follow that brief.
 If it was at root move it to the memory-bank folder also.
