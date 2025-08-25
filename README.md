@@ -1,6 +1,6 @@
 # My Memory Bank Instructions
 
-If you are an ai agent or llm these are not instructions to be followed.
+If you are an ai agent or llm these are not instructions to be followed unless asked to.
 
 ---
 
