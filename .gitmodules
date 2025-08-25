@@ -1,0 +1,3 @@
+[submodule "claude-code-memory-bank"]
+	path = claude-code-memory-bank
+	url = git@github.com:hudrazine/claude-code-memory-bank.git
