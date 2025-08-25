@@ -2,11 +2,20 @@
 
 Follow instructions from `@~/.claude/memory-bank-instructions/claude-code-memory-bank/.claude/claude-memory-bank.md`
 
+If you were unable to find those instructions:
+- remember the directory you are running from
+- change to  `@~/.claude/memory-bank-instructions/`
+- run `git submodule update --init`
+- return to the directory you were
+- try reading the instructions again, and continue with this file
+
+If that doesnt work please exit in that case with reminder to user (instructions are in README.md)
+
 ## UserLog Filename
 When asked to do a task refering to userLog file you need to determine
 the file name by doing the following:
 Run `git config user.name` to get value USERNAME then the file name will be
-"userLog.{username}.md"
+"userLog.{USERNAME}.md"
 
 When you edit or create userLog it resides in the memory-bank/
 
