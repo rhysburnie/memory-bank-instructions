@@ -27,6 +27,18 @@ I add the following to my `~/.claude/CLAUDE.md`
 - @memory-bank-instructions/memory-bank-instructions.md
 ```
 
+Also you need to add permission to `~/.claude/settings.json`
+
+```
+{
+  "permissions": {
+    "additionalDirectories": [
+      "~/.claude/memory-bank-instructions"
+    ]
+  }
+}
+```
+
 ## Custom stuff
 
 Apart from making /init-memory-bank easier I have the following
